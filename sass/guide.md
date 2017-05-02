@@ -1,4 +1,4 @@
-![](http://opb4jophh.bkt.clouddn.com/outu.png?new)
+<img src="http://opb4jophh.bkt.clouddn.com/outu.png?ver" width="125" height="125">
 
 #### sass提供了四个编译风格的选项
 * nested：嵌套缩进的css代码,它是默认值
