@@ -1,4 +1,4 @@
-![](http://opb4jophh.bkt.clouddn.com/outu.ico)
+![](http://opb4jophh.bkt.clouddn.com/outu.png)
 
 #### sass提供了四个编译风格的选项
 * nested：嵌套缩进的css代码,它是默认值
