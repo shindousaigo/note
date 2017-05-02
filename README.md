@@ -1,3 +1,3 @@
 # note
 
-<img src="http://opb4jophh.bkt.clouddn.com/outu.png?ver">
+<img src="http://opb4jophh.bkt.clouddn.com/outu.png?ver" text-align="center">
