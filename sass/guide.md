@@ -86,3 +86,19 @@
         @include rounded(top, left, 5px); 
     }
     ```
+* import 
+    ```
+    @import命令，用来插入外部文件。
+    @import "path/filename.scss";
+    如果插入的是.css文件，则等同于css的import命令。
+    @import "foo.css";
+    ```
+* 函数
+    ```
+    @function double($n) {
+        @return $n * 2;
+    }
+    #sidebar {
+        width: double(5px);
+    }
+    ```
