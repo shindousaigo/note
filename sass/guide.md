@@ -1,3 +1,5 @@
+![](http://opb4jophh.bkt.clouddn.com/outu.ico)
+
 #### sass提供了四个编译风格的选项
 * nested：嵌套缩进的css代码,它是默认值
 * expanded：没有缩进的,扩展的css代码
