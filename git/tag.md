@@ -4,7 +4,7 @@
 
   列出所有tag:
 
-  `git tag`
+  <code>git tag</code>
   
   这样列出的tag是按字母排序的，和创建时间没关系。如果只是想查看某些tag的话，可以加限定：
 
