@@ -28,12 +28,27 @@
 
     前提是你有GPG私钥，把上面的a换成s就行了。除了可以为当前的进度添加tag，我们还可以为以前的commit添加tag：
 
-  - 首先查看以前的commit
+    - 首先查看以前的commit
 
     > git log --oneline
 
-  - 假如有这样一个commit：8a5cbc2 updated readme, 这样为他添加tag
-  
-    > git tag -a v1.18a5cbc2
+    - 假如有这样一个commit：8a5cbc2 updated readme, 这样为他添加tag
 
+    > git tag -a v1.18a5cbc2
+  
+3. 删除tag
+
+    > git tag -d v1.0
+
+4. 验证tag
+
+    如果你有GPG私钥的话就可以验证tag：
+
+    > git tag -v v1.0
+
+5. 共享tag
+
+    我们在执行git push的时候，tag是不会上传到服务器的，比如现在的github，创建tag后git push，在github网页上是看不到tag的，为了共享这些tag，你必须这样：
+
+    > git push origin --tags
 
