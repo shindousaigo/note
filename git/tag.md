@@ -28,11 +28,11 @@
 
     前提是你有GPG私钥，把上面的a换成s就行了。除了可以为当前的进度添加tag，我们还可以为以前的commit添加tag：
 
-    - 首先查看以前的commit
+    首先查看以前的commit
 
     > git log --oneline
 
-    - 假如有这样一个commit：8a5cbc2 updated readme, 这样为他添加tag
+    假如有这样一个commit：8a5cbc2 updated readme, 这样为他添加tag
 
     > git tag -a v1.18a5cbc2
   
