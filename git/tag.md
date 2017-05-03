@@ -1,7 +1,7 @@
 # Tag
 
 1. 查看tag
-
+  ```
   列出所有tag:
 
   <code>git tag</code>
@@ -11,3 +11,4 @@
   `git tag -l v1.*`
 
   这样就只会列出1.几的版本。
+  ```
