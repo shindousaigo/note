@@ -1,0 +1,5 @@
+promise
+
+https://www.promisejs.org/api/
+
+http://web.jobbole.com/82601/
